@@ -11,7 +11,7 @@
     <!--TODO 5 dodaj property-placeholder wskazujący na service.properties-->
     <!--TODO 6 utwórz definicję bean'a, dla GreetServiceSecondImplementation w konstruktorze wstrzyknij msg z pliku service.properites-->
     <beans profile="xml">
-        <bean id="secondImplementation" class="workshop.sb.config.service.GreetServiceFirstImplementation">
+        <bean id="secondImplementation" class="workshop.sb.config.service.GreetServiceSecondImplementation">
             <constructor-arg value="${msg.form.properties}"></constructor-arg>
         </bean>
 
